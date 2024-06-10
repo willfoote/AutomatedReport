@@ -36,14 +36,14 @@ Sub AnalyzeAllSheets()
     summarySheet.Cells(1, 8).Value = "I2"
     summarySheet.Cells(1, 9).Value = "I3"
 
-    summarySheet.Cells(1, 11).Value = "Tab Name"
-    summarySheet.Cells(1, 12).Value = "Maximum Monthly Power (kW)"
+    summarySheet.Cells(1, 11).Value = "Maximum Monthly Power"
+    summarySheet.Cells(1, 12).Value = "kW"
 
-    summarySheet.Cells(1, 14).Value = "Tab Name"
-    summarySheet.Cells(1, 15).Value = "Average Monthly Power (kW)"
+    summarySheet.Cells(1, 14).Value = "Average Monthly Power"
+    summarySheet.Cells(1, 15).Value = "kW"
 
-    summarySheet.Cells(1, 17).Value = "Tab Name"
-    summarySheet.Cells(1, 18).Value = "Total Energy (kWh)"
+    summarySheet.Cells(1, 17).Value = "Total Energy"
+    summarySheet.Cells(1, 18).Value = "kWh"
 
     summarySheet.Cells(1, 20).Value = "Daily Averages"
     summarySheet.Cells(1, 21).Value = "Average Current Ia"

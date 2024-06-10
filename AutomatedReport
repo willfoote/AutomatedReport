@@ -26,30 +26,30 @@ Sub AnalyzeAllSheets()
     End If
 
     ' Initialize header rows for summary tables
-    summarySheet.Cells(1, 1).Value = "Tab Name"
-    summarySheet.Cells(1, 2).Value = "Max I1"
-    summarySheet.Cells(1, 3).Value = "Max I2"
-    summarySheet.Cells(1, 4).Value = "Max I3"
+    summarySheet.Cells(1, 1).Value = "Maximum Current Monthly"
+    summarySheet.Cells(1, 2).Value = "I1"
+    summarySheet.Cells(1, 3).Value = "I2"
+    summarySheet.Cells(1, 4).Value = "I3"
 
-    summarySheet.Cells(1, 6).Value = "Tab Name"
-    summarySheet.Cells(1, 7).Value = "Average I1"
-    summarySheet.Cells(1, 8).Value = "Average I2"
-    summarySheet.Cells(1, 9).Value = "Average I3"
+    summarySheet.Cells(1, 6).Value = "Average Current Monthly"
+    summarySheet.Cells(1, 7).Value = "I1"
+    summarySheet.Cells(1, 8).Value = "I2"
+    summarySheet.Cells(1, 9).Value = "I3"
 
     summarySheet.Cells(1, 11).Value = "Tab Name"
-    summarySheet.Cells(1, 12).Value = "Max Total kW"
+    summarySheet.Cells(1, 12).Value = "Maximum Monthly Power (kW)"
 
     summarySheet.Cells(1, 14).Value = "Tab Name"
-    summarySheet.Cells(1, 15).Value = "Average Total kW"
+    summarySheet.Cells(1, 15).Value = "Average Monthly Power (kW)"
 
     summarySheet.Cells(1, 17).Value = "Tab Name"
-    summarySheet.Cells(1, 18).Value = "Monthly kWh"
+    summarySheet.Cells(1, 18).Value = "Total Energy (kWh)"
 
-    summarySheet.Cells(1, 20).Value = "Tab Name"
-    summarySheet.Cells(1, 21).Value = "Average B"
-    summarySheet.Cells(1, 22).Value = "Average C"
-    summarySheet.Cells(1, 23).Value = "Average D"
-    summarySheet.Cells(1, 24).Value = "Average E"
+    summarySheet.Cells(1, 20).Value = "Daily Averages"
+    summarySheet.Cells(1, 21).Value = "Average Current Ia"
+    summarySheet.Cells(1, 22).Value = "Average Current Ib"
+    summarySheet.Cells(1, 23).Value = "Average Current Ic"
+    summarySheet.Cells(1, 24).Value = "Average Daily Power"
 
     ' Initialize summary row for each table
     Dim maxSummaryRow As Long: maxSummaryRow = 2
